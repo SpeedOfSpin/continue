@@ -22,6 +22,7 @@ import ProblemsContextProvider from "./ProblemsContextProvider.js";
 import SearchContextProvider from "./SearchContextProvider.js";
 import TerminalContextProvider from "./TerminalContextProvider.js";
 import URLContextProvider from "./URLContextProvider.js";
+import MSSQLContextProvider from "./MSSQLContextProvider.js";
 
 /**
  * Note: We are currently omitting the following providers due to bugs:
@@ -51,6 +52,7 @@ const Providers: (typeof BaseContextProvider)[] = [
   CodeContextProvider,
   CurrentFileContextProvider,
   URLContextProvider,
+  MSSQLContextProvider,
   ContinueProxyContextProvider,
 ];
 

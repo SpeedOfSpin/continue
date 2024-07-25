@@ -543,6 +543,7 @@ type ContextProviderName =
   | "docs"
   | "gitlab-mr"
   | "os"
+  | "mssql"
   | "currentFile";
 
 type TemplateType =
