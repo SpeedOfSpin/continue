@@ -1524,6 +1524,7 @@
                 "currentFile",
                 "url",
                 "database",
+                "mssql",
                 "os"
               ],
               "markdownEnumDescriptions": [
@@ -1547,6 +1548,7 @@
                 "Reference the contents of the currently active file",
                 "Reference the contents of a page at a URL",
                 "Reference table schemas",
+                "References Microsoft SQL table schema and sample rows",
                 "Operating system and CPU Information"
               ],
               "type": "string"
